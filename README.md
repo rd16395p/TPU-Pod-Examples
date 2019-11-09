@@ -12,7 +12,7 @@ A BIG thank you to tensorflow research cloud. Without them I would not have acce
 
 # How to get any Google Compute Engine VM set up for use with TPU Pods
 
-First, make sure that the GCE VM is set up with all permissions enabled to access the [tpu pods](https://github.com/tensorflow/tpu/issues/596)
+First, make sure that the GCE VM is set up with all permissions enabled to access the [tpu pods.](https://github.com/tensorflow/tpu/issues/596)
 
 This can be done through the gui by clicking the name of the VM under VM instances. I would recommend creating the VM instance in the same zone as the TPU pod as it is easier to set up to the connection to the pod. 
 
