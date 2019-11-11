@@ -16,7 +16,7 @@ First, make sure that the GCE VM is set up with all permissions enabled to acces
 
 This can be done through the gui by clicking the name of the VM under VM instances. I would recommend creating the VM instance in the same zone as the TPU pod as it is easier to set up to the connection to the pod. 
 
-Second, make sure that the packages are also installed on the VM instance. For these examples, I would install pandas and tensorflow 1.14. There will also be text that will appear stating to download new packages. Install the packages by following the dialog that appears. I woud also ensure that the TPU Pod software version is 14.0, matching the tensorflow version. 
+Second, make sure that the packages are also installed on the VM instance. For these examples, I would install pandas and tensorflow 1.14. There will also be text that will appear stating to download new packages. Install the packages by following the dialog that appears. I woud also ensure that the TPU Pod software version is 14.0, matching the tensorflow version. These commands are `pip install --upgrade google-api-python-client` and `pip install --upgrade oauth2client`. 
 
 # Other related guides I found helpful 
 
