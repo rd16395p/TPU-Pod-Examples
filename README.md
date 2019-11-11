@@ -1,5 +1,9 @@
 # TPU-Pod-Examples
 
+![tensorflowlogo](logofortf.PNG)
+
+"TensorFlow, the TensorFlow logo and any related marks are trademarks of Google Inc.”
+
 [Tensorflow Research Cloud](https://www.tensorflow.org/tfrc/)
 
 Research supported with Cloud TPUs from Google's TensorFlow Research Cloud (TFRC). 
