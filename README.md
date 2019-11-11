@@ -2,7 +2,7 @@
 
 [Tensorflow Research Cloud](https://www.tensorflow.org/tfrc/)
 
-A BIG thank you to tensorflow research cloud. Without them I would not have access to the hardware at all!
+Research supported with Cloud TPUs from Google's TensorFlow Research Cloud (TFRC). 
 
 # Contents of this repository 
 
