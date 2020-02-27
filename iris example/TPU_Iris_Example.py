@@ -17,7 +17,6 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import iris_data_tpu as iris_data
 import tensorflow as tf
 from tensorflow.contrib import cluster_resolver as contrib_cluster_resolver
 from tensorflow.contrib import tpu as contrib_tpu
@@ -210,7 +209,7 @@ def main(argv):
                                                    "GCS bucket path!")
 
     # Fetch the data
-    (train_x, train_y), (test_x, test_y) = iris_data.load_data()
+    (train_x, train_y), (test_x, test_y) = load_data()
 
     # Feature columns describe how to use the input.
     my_feature_columns = []
@@ -248,7 +247,7 @@ def main(argv):
 
     # Train the Model.
     classifier.train(
-        input_fn=lambda params: iris_data.train_input_fn(
+        input_fn=lambda params: train_input_fn(
             train_x, train_y, params["batch_size"]),
         max_steps=FLAGS.train_steps)
 
