@@ -1,6 +1,6 @@
 # Iris Example
 
-This is modfied code from the creaters of the code over at the [tpu repository.](https://github.com/tensorflow/tpu/tree/master/models/samples/core/get_started) I changed it to serve as an example of tensorflow code running on a TPU.
+This is modfied code from the creaters of the code over at the [tpu repository](https://github.com/tensorflow/tpu/tree/master/models/samples/core/get_started) and [this](https://colab.research.google.com/github/tensorflow/tpu/blob/master/tools/colab/classification_iris_data_with_tpuestimator.ipynb#scrollTo=phzyD8iCAzcp) notebook. I changed it to serve as an example of tensorflow code running on a TPU.
 
 # How to run the code
 
@@ -13,3 +13,7 @@ My command using a v3-256 was as the following;
 python3 TPU_Iris_Example.py --tpu="$TPU_NAME" --tpu_zone="$TPU_ZONE" --model_dir='gs://$BUCKET_NAME' --num_cores_per_replica=256 --batch_size=256
 
 where I used python3 command to run my code. 
+
+# Using the notebook
+
+The notebook can be used on colaboratory by uploading it there. 
